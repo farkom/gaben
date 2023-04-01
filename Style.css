@@ -1,0 +1,45 @@
+/* body {
+    background-color: blue;
+} */
+
+.header {
+    width: 100%;
+    height: 120px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* вирівнювання по горизонталі (вісь ОХ) */
+    align-items: center; /* вирівнювання по вертикалі (вісь ОУ) */
+}
+.main {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(251, 161, 161);
+    display: flex; /* дозвіл на переміщення */
+    flex-direction: row; /* переміщення з права на ліво */
+}
+
+.footer {
+    width: 100%;
+    height: 120px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* вирівнювання по горизонталі (вісь ОХ) */
+    align-items: center; /* вирівнювання по вертикалі (вісь ОУ) */
+}
+
+.block-1 {
+    width: 30%;
+    height: 600px;
+    background-color: rgb(255, 242, 5);
+}
+.block-2 {
+    width: 70%;
+    height: 600px;
+    background-color: rgb(155, 155, 153);
+}
+
+h1 {
+    color: rgb(253, 253, 253);
+}
